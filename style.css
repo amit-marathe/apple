@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+.navbar{
+    z-index: 999;
+    height: 44px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    position: fixed;
+    color: #fff;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    position: relative;     
+}
+
+.home img{
+    height: 90%;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.home .h-text{
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.858);
+}
+
+.h-text h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.h-text p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.h-text a{
+    text-decoration: none;
+    color: #0470db;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.home a:hover{
+    border-bottom: 2px solid #0470db;
+}
+
+.sec{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: rgba(0, 0, 0, 0.858);
+}
+
+.sec .s-text{
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.s-text h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.s-text p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.s-text a{
+    text-decoration: none;
+    color: #0470db;
+    margin: 0 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.sec img{
+    height: 64%;
+    width: 35%;
+    position: absolute;
+    left: 51%;
+    top: 67%;
+    transform: translate(-50%,-50%);
+}
+
+.sec a:hover{
+    border-bottom: 2px solid #0470db;
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #010023;
+}
+
+.third video{
+    height: 99vh;
+    width: 100%;
+}
+
+.third .t-text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 77%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.t-text h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.t-text p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.t-text a{
+    text-decoration: none;
+    color: #5ba4f1;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.third a:hover{
+    border-bottom: 2px solid #5ba4f1;
+}
